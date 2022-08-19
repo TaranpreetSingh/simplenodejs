@@ -8,7 +8,7 @@ app.set("view engine", 'ejs');
 
 //routes
 app.get('/', (req,res) =>{
-    res.render('index');
+    res.status('200').send("hrllo")
 });
 
 app.get('/health', (req,res) =>{
